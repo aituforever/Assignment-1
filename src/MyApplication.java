@@ -1,8 +1,8 @@
 import java.io.File;
 import java.util.*;
-import java.io.FileNotFoundException;
+import java.io.FileNotFoundException;//imported necessary classes to use
 public class MyApplication {
-    public static void main(String[] args) throws FileNotFoundException{
+    public static void main(String[] args) throws FileNotFoundException{//added case of file not existing
         File file = new File("C:\\Users\\Alan\\IdeaProjects\\as1\\src\\file.txt");//create a file located at this directory
         Scanner scanner = new Scanner(file);//Scanner object to read from the file
         List<Point> coordinates = new ArrayList<>(); //Arraylist to store all Point objects
